@@ -105,4 +105,10 @@ print(text)
 #sed do eiusmod tempor incididunt
 #ut labore et dolore magna aliqua.'''
 #print(a)
-
+x='welcome'
+print(x[3:5])
+x='welcome'
+print(x[3:])
+x='welcome'
+y='coders'
+print(x + y)
