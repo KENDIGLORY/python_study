@@ -49,7 +49,7 @@ else:
 # if they dont have a drivers license print you are not eligible to drive
 # otherwise you are too young to drive
 
-age=int(input('rnter your age: '))
+age=int(input('enter your age: '))
 if age>18:
     licence=input('do you have a driving licence yes/no: ')
     if licence=='yes':
@@ -63,8 +63,29 @@ else:
 
 #task2
 # Write a program that:
-# = > Takes the user's credit score and annual income as input.
+# =>Takes the user's credit score and annual income as input.
 # =>If the credit score is above 700, check if the income is above 50,000:
 # =>If both conditions are met, print "Loan approved."
 # =>If only the credit score is high, print "Income requirement not met."
-# =>If the credit score is below 700, print "Credit score too low."
+# =>If the credit score is below 700, print "Credit score too low
+
+#Write a program that:
+#Takes the user's credit score and annual income as input.
+creditscore=float(input('credit score: '))
+income=float(input('annual income: '))
+#If the credit score is above 700, check if the income is above 50,000:
+if creditscore>700:
+    if income>50000:
+        print('loan approved')
+    else:
+        print('income requirement not met')
+#If the credit score is below 700, print "Credit score too low
+else:
+    print('credit score too low')
+    
+
+
+
+
+
+
