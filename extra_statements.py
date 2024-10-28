@@ -22,11 +22,13 @@ if start_date==end_date:
 str1='beginning'
 str2='between'
 if len(str1)> len(str2):
-   longer=str1
+   longer=f'{str1} is longer'
+elif len(str1)==len(str2):
+   longer='both are equal'
 else:
-   longer=str2
+   longer=f'{str2} is longer'
 
-print(f'{longer} is longer')
+print(longer)
 
    
      
