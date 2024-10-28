@@ -21,17 +21,19 @@ else:
 #grading system 
 #taking marks from input
 marks=int(input('enter marks: '))
-
-if marks>=80 and marks<=100:
-    print('A')
-elif marks>=70 and marks<80:
-    print('B')
-elif marks>=60 and marks<70:
-    print('C')
-elif marks>=50 and marks<60:
-    print('D')
-else: 
-    print('E')
+if marks>=0 and  marks<=100:
+    if marks>=80 and marks<=100:
+        print('A')
+    elif marks>=70 and marks<80:
+        print('B')
+    elif marks>=60 and marks<70:
+        print('C')
+    elif marks>=50 and marks<60:
+        print('D')
+    else: 
+        print('E')
+else:
+ print('invalid marks')
 
 #check if the age from input s greater then 60 print you are old if the age is above 18 and less than 60 print you are an adult
 #otherwise print you are a child
@@ -82,10 +84,6 @@ if creditscore>700:
 #If the credit score is below 700, print "Credit score too low
 else:
     print('credit score too low')
-    
 
 
-
-
-
-
+ 
