@@ -6,16 +6,16 @@
 marks=float(input('enter marks: '))
 output = ''
 if marks>0 and marks<100:
-        if(marks>79):
-              output = 'Grade: A'
-        elif(marks>=60 and marks<79):
-              output= 'Grade: B'
-        elif(marks>=49 and marks<=59):
-              output = 'Grade: C'
-        elif(marks>=40 and marks<=49):
-              output = 'Grade: D'
-        else:
-              output = 'E'        
+      if(marks>79):
+            output = 'Grade: A'
+      elif(marks>=60 and marks<79):
+            output= 'Grade: B'
+      elif(marks>=49 and marks<=59):
+            output = 'Grade: C'
+      elif(marks>=40 and marks<=49):
+            output = 'Grade: D'
+      else:
+            output = 'E'        
 else:
     output = 'Invalid Marks'
 

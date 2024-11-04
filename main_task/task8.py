@@ -7,12 +7,21 @@
 #  driver gets more than 12 points, the function should print: “License suspended”.
 # Once you learn functions,revisit this and write this code inside a function.
 
-demerit_point=''
-speed = int(input("Enter Speed: "))
+demerit_points=0
+speed=int(input("Enter Speed: "))
 if speed <= 70:
-    output = 'Ok'
-elif speed>70:
-    output=''
+    print("Okay")
+
+else:
+    demerit_points = (speed - 70)//5
+    if demerit_points >= 12:
+        print(f"License Suspended! Demerit Points: {demerit_points}")
+
+    else:
+        print(f'Demerit Points: {demerit_points}')
+
+
+
 
 
 
