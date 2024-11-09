@@ -36,7 +36,7 @@ def calc_nhif(gross):
         nhif_contribution=10000
     elif gross>=45000 and gross<=49999:
         nhif_contribution=1100
-    elif gross>=50000 and gross<=59999:
+    elif gross>=50000 and gross <=59999:
         nhif_contribution=1200
     elif gross>=60000 and gross <=69999:  
         nhif_contribution=1300
@@ -52,5 +52,13 @@ def calc_nhif(gross):
     
 nhif=calc_nhif(gross_sal)
 print(nhif)
+
+
+
+
+
+
+
+
 
 
